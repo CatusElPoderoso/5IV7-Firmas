@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+:root {
+  --rosa: #ff4070;
+  --salmon: #FFCFCC;
+  --gris: #2e2e2e;
+  --gris-claro: #6E6E6E;
+}
+
+html, body {
+    background-color: white;
+    font-family: Poppins;
+    color: var(--gris);
+    padding: 20px;
+}
+
+h1{
+    color: var(--rosa);
+    font-size: 2rem;
+}
+a{
+    color: var(--rosa);
+    font-size: 1rem;
+    outline: none;
+    text-decoration: none;
+    margin: auto;
+}
+a:hover {
+  background: var(--salmon);
+  color: var(--gris-claro);
+  border-radius: 5px;
+  transition: 0.2s;
+}
+input[type="file"], select{
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 0.5em 1em; 
+}
+
